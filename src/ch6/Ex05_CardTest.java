@@ -23,3 +23,10 @@ public class Ex05_CardTest {
         System.out.println("c2은 " + c2.kind + ", " + c2.number + "이며, 크기는 (" + c2.width + ", " + c2.height + ")");
     }
 }
+
+class Card {
+    String kind;
+    int number;
+    static int width;
+    static int height;
+}

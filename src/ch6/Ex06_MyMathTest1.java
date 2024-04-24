@@ -14,3 +14,21 @@ public class Ex06_MyMathTest1 {
         System.out.println("divide(5L, 3L) = " + result4);
     }
 }
+
+class MyMath1 {
+    long add(long a, long b) {
+        return a + b;
+    }
+
+    long subtract(long a, long b) {
+        return a - b;
+    }
+
+    long multiply(long a, long b) {
+        return a * b;
+    }
+
+    double divide(double a, double b) {
+        return a / b;
+    }
+}
