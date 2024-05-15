@@ -32,7 +32,7 @@ public class Ex44_BigDecimal {
         System.out.println(bd1.setScale(2, RoundingMode.HALF_UP));
         System.out.println(bd1.divide(bd2, new MathContext(2, RoundingMode.HALF_UP)).toPlainString());
 
-        BigDecimal bd4 = bd1.divide(bd2, new MathContext(2, RoundingMode.HALF_UP));
+        BigDecimal bd4 = bd1.multiply(bd2, new MathContext(2, RoundingMode.HALF_UP));
         System.out.print("bd4 = " + bd4);
         System.out.print(",\tvalue = " + bd4.unscaledValue());
         System.out.print(",\tscale = " + bd4.scale());
